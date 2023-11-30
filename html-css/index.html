@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Imagens/favicon.ico" type="image/x-icon">
+    <title>Documento de estudo!</title>
+</head>
+
+<body>
+    <hr>
+    <h1>Estudo</h1>
+    <p>Este é um caso de estudo de HTML.</p>
+    <p>Estou estudando para aprender como usar HTML junto com o JavaScript e me tornar um bom programador front-end.</p>
+
+    <p>Como adicionar símbolos em HTML: &reg; &copy; por exemplo esses,
+        <strong>utilize o & + o nome da tag desejada</strong>
+    </p>
+
+    <p>Como adicionar emojis:
+        <br>
+        <strong>como esse:</strong> &#x1F384
+        <br>
+        <strong>os três juntos &#x + o código do emoji desejado</strong>
+    </p>
+
+    <p>
+        Para ter acesso aos códigos dos emojis, acesse:
+        <a href="https://emojipedia.org/" target="_blank">
+            <strong>Emojipedia</strong>
+        </a>
+    </p>
+    <hr>
+
+    <p>
+        <img src="/html-css/Imagens/imagem.png" alt="boneco ilustrando alguém programando">
+        <br>
+        Utilize a tag img, em src coloque o link da imagem ou o diretório. Pode ser feito usando o
+        ctrl + espaço desde que esteja na mesma pasta do código. Em alt, insira uma breve descrição da imagem.
+    </p>
+    <hr>
+
+    <p>
+        <strong>Para adicionar imagens de subpastas, pode ser usado no src o mesmo comando descrito antes ou o / para
+            mostrar o diretório no src.</strong>
+    </p>
+
+    <p>
+        <strong>Também podemos carregar imagens externas copiando o endereço da imagem</strong> como a seguir: <br>
+        <img src="https://cdn.iconscout.com/icon/free/png-256/free-js-61-1127937.png" alt="ícone JavaScript">
+        , lembre-se não é muito recomendado a imagem externa, pois se o local no qual você pega a imagem cair, a mesma
+        cai em seu sistema.
+    </p>
+    <hr>
+
+    <p>
+        Agora veremos como mudar o favicon. Mas o que seria isso? É o ícone que aparece ao lado do nome da guia, como o
+        G do Google
+        ou o F do Facebook.
+        Na head do arquivo, acima do title, escreva a tag link e selecione o favicon. Logo em seguida, coloque no href o
+        diretório do seu ícone.
+        Lembre-se de usar sempre arquivos .ico
+    </p>
+
+    <h2>HIERARQUIA DE TITULOS</h2>
+    <br>
+    <strong>
+        <p>De forma resumida, a hierarquia de títulos em HTML é uma estrutura que organiza o conteúdo de uma página web
+            em níveis de importância. <br>
+            Os elementos de título vão de h1 (o mais importante) a h6 (o menos importante). <br>
+            Essa hierarquia não apenas influencia a aparência visual da página, mas também fornece informações
+            semânticas sobre a estrutura do conteúdo,
+            beneficiando tanto os usuários quanto os motores de busca. <br>
+            Cada nível de título representa uma camada descendente de importância, facilitando a compreensão e a
+            navegação no conteúdo da página.</p>
+    </strong>
+
+    <h3>Semântica; O que é?</h3>
+
+    <p>
+        Em HTML, a semântica refere-se à utilização de tags de marcação para estruturar e descrever o conteúdo de uma
+        página da web de maneira significativa e compreensível. Ou seja, a escolha adequada das tags HTML para
+        representar diferentes partes do conteúdo, como cabeçalhos, parágrafos, listas, links, formulários, entre
+        outros, de modo a proporcionar um significado claro e preciso ao conteúdo da página. Isso não apenas ajuda os
+        desenvolvedores a entenderem a estrutura do documento, mas também beneficia os motores de busca e outros agentes
+        de processamento de informações na interpretação correta do conteúdo. O uso apropriado da semântica contribui
+        para a acessibilidade, SEO (Search Engine Optimization) e manutenção de código.
+    </p>
+    <h4>Negrito e italico</h4>
+
+    <p>
+        Para colocar palavras em <strong>negrito</strong> e italico utiliza-se as tags: <br>
+
+        Para negrito se utiliza a tag <strong>STRONG</strong> <br>
+
+        Para <em>italico</em> se utiliza a tag <strong>EM</strong>. <br>
+
+        Podemos criar tambem um texto marcado usando a tag mark! (mas nao é semantico!)
+        <strong>interessante seria usar o css para modificar essa questão </strong>
+        <br>
+        <br>
+        <strong>texto grande e texto pequeno</strong> <br>
+
+        Para textos grandes voce pode usar o css para alterar o tamanho da fonte
+        Para pequenos textos voce pode usar a tag: <small>small</small>
+        <br>
+        Para criar um texto riscado ou excluido voce pode usar a tag <strong>del</strong> que ele fica <del>assim</del>
+        <br>
+        Para criar um texto inserido voce pode utilizar a tag <strong>ins</strong> que ele fica assim
+        <ins>sublinhado</ins>
+        <br>
+        Para criar textos sobrescrito pode usar a tag <strong>sup</strong> exemplo <sup>5000</sup> e textos subscrito
+        pode usar a tag <strong>sub</strong> exemplo <sub>4000</sub>
+    </p>
+    <p>
+    <h1>Outras formatações</h1>
+    <h2>Código fonte / Pré-formatação</h2>
+    <p>
+        Exemplo de escrita usando o comando <strong>code e se caso queira que toda a formatação igual no codigo, pode
+            incluir a tag <ins>pre</ins> antes da tag code </strong>: <br>
+        O comando <code>document.getElementById("tste") é escrito em JavaScript</code>
+    </p>
+    <h2>Citações simples</h2>
+    <p>
+        <q>isso é uma citação:</q> <strong>utlize a tag Q </strong>
+    </p>
+    <h2>Citações Complexas / Completas </h2>
+    <p> o Google é um mecanismo de busca muito complexo</p>
+    <blockquote
+        cite="https://www.conversion.com.br/blog/estatisticas-do-google/#:~:text=O%20Google%20realiza%20mais%20de,todo%20o%20mundo%20(Statista).">
+        O Google realiza mais de 3,5 bilhões de pesquisas diariamente (Internet Live Stats). Mais de 50% das buscas no
+        Google resultam em cliques em um dos três primeiros resultados (Backlinko).
+        O Google detém mais de 70% do mercado de pesquisa paga em todo o mundo (Statista).
+    </blockquote>
+    <br>
+    essa citação apresentadada foi usando o comando <strong>blockquote + cite que é um parametro para a tag, é onde voce
+        <ins>pode colocar o link de onde veio a citação</ins></strong>
+
+    <h2>Abreviações</h2>
+
+    Isso é um comando para abreviar a <abbr title="Palavra">palavra</abbr>
+    <strong>use a tag ABBR no title coloque a abreviação desejada, logo após escreva a palavra que deseja abreviar,
+        <ins>pode ser usada para termos tecnicos como exemplo</ins></strong>
+    </p>
+    <h1>LISTAS OL E UL</h1>
+    <h2>Listas ordenadas</h2> <!--Listas que a ordem faz diferença-->
+
+    <ol>
+        <li>Começar arquivo</li>
+        <li>Organizar arquivo</li>
+        <li>Criar estilo para o arquivo</li>
+        <li>Criar programação para o arquivo</li>
+    </ol>
+
+    <strong>tag <ins>OL -> tag pai e il -> tag filho </ins></strong> pode tambem passar um <strong><ins>type e
+            start</ins> como parametro</strong>
+    <h2>Listas não ordenadas</h2>
+    <ul>
+        <li>começo</li>
+        <li>fim</li>
+        <li>meio</li>
+    </ul>
+    <p><strong>Tag pai UL e tag filho LI</strong> <ins>possivel passar parametro como type</ins></p>
+
+    <h1>Listas Mistas e de definição</h1>
+    <h2>Juntando Listas</h2>
+
+    <ol>
+        <li>exemplos</li>
+        <ol>
+            <li>esse é um exemplo</li>
+            <li>esse é um segundo exemplo</li>
+        </ol>
+        <li>Outros exemplos</li>
+        <ol>
+            <li>um novo exemplo</li>
+            <li>um exemplo antigo</li>
+        </ol>
+    </ol>
+    <p>
+        aqui eu criei uma lista mista com dois OL sendo o <strong>exemplos o primeiro OL</strong> <br>
+        E o <strong>outros exemplos o segundo OL</strong>
+    </p>
+    <ul>
+        <li>COMIDAS</li>
+        <ul>
+            <li>pizza</li>
+            <li>macarronada</li>
+            <li>frango frito</li>
+        </ul>
+        <ol>
+            <li>DOCES</li>
+            <ol>
+                <li>brigadeiro de leite ninho</li>
+                <li>doce de leite</li>
+                <li>pé de moleque</li>
+            </ol>
+        </ol>
+    </ul>
+    <p>Aqui criei uma lista mista com UL -> sendo <ins>COMIDAS</ins> e OL -> sendo <ins>DOCES</ins> </p>
+    <h2>lista de definição</h2>
+    <dl>
+        <dt>termo HTML </dt>
+        <dd>descrição: Linguagem de marcação de pagínas</dd>
+    </dl>
+    <p>
+        <strong>dl</strong> cria o escopo <br>
+        <strong>dt</strong> o termo desejado da lista <br>
+        <strong>dd</strong> a descrição do termo desejado
+    </p>
+    <h1>LINKS E ANCORAS</h1>
+    <h2>links externos</h2>
+    <p>
+        voce pode guardar seus projetos no <a href="https://github.com/" rel="external" target="_blank">gitHub</a><br>
+        <strong>
+            voce pode criar um link externo usando a tag <ins>a</ins> <ins>href="link"</ins> logo após o <ins>></ins>
+            voce coloca o nome desejado para o link
+        </strong>
+    <p>
+        importante passar apos o link os parametros rel="external" e target="_blank" <br>
+        <strong>estes parametros vao fazer com que o link abra em uma nova guia, ao inves de sobrepor o seu
+            site!</strong>
+    </p>
+    <h2>Links internos</h2>
+    <p>Aqui está a primeira pagina</p>
+    <p>Aqui está a <a href="pg2.html" rel="next" target="_self">segunda pagina</a> do site</p>
+    <!--o target self é para a própria pagina-->
+    <h3>como eu crio este link interno?</h3>
+    <p>usando a mesma tag <ins><strong>a</strong></ins> no href voce coloca o nome do segundo arquivo, lembre-se o mesmo
+        deve estar na mesma pasta do primeiro arquivo <br>
+        e logo apos colocar o diretorio do arquivo no href basta escolher um nome para aquele link. </p>
+    <p><strong>lembre-se de passar o parametro rel logo apos o diretorio do arquivo para ajudar o seo a melhorar o
+            rankeamento do seu site</strong></p>
+    <p>
+        aqui você pode consultar quais os atributos <a
+            href="https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/rel" rel="external" target="_blank">rel -
+            documentação oficial</a>
+    </p>
+    <p>Mas qual o motivo de passar os atributos rel dentro de um link? Esses atributos fornecem uma melhora para o
+        <ins>SEO</ins></p>
+    <h2> o que é SEO? </h2>
+    <P><strong>SEO, que significa "Search Engine Optimization"em inglês,</strong> <br>
+        é um conjunto de práticas e estratégias utilizadas para otimizar um site ou conteúdo online,<br>
+        a fim de melhorar sua visibilidade nos resultados dos motores de busca, como o Google. <br>
+        O objetivo do SEO é aumentar a qualidade e a quantidade do tráfego orgânico (não pago) para um site, <br>
+        melhorando sua classificação nos resultados de busca para palavras-chave relevantes. <br>
+        Isso envolve otimização de conteúdo, estrutura do site, uso de palavras-chave, links internos e externos, entre
+        outros fatores mais ami pgáveisara os motores de busca e, <br>
+        consequentemente, mais relevante para os usuários.</P>
+
+    <h1>link's para download</h1>
+
+    <ul>
+        <li><a href="meulivro.pdf" download="meulivro.pdf" type="application/pdf">baixar arquivo</a></li>
+    </ul>
+    
+    <h1>Imagens dinâmicas</h1>
+
+    <p>essas imagens sao dinamicas</p>
+
+    <picture>
+        <source media="(max-width: 800px)" srcset="imagens/P.png" type="image/png"> <!-- picture é um escopo para imagens-->
+        <source media="(max-width: 1100px)" srcset="Imagens/M.png" type="image/png"> <!--a tag source media cria imagens dinamicas, a quantidade de px diz quando a imagem é trocada na pagina-->
+        <img src="Imagens/G.png" alt="g"> <!-- img é a primeira imagem que vai aparecer na pagina o source em srcset define as outras e no type o formato das mesmas-->
+    </picture>
+
+    <h1>audios</h1>
+
+    <p>essa é top</p>
+
+    <audio src="Hotlanta - Track Tribe.mp3" controls ></audio>
+
+    <h1>formatos de videos</h1>
+
+    <video src="pexels-taryn-elliott-5309354 (1080p).mp4" width="500" controls></video>
+
+    <h2>videos externos</h2>
+    
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/LJHZ15s0Tus?si=v9ypnTwiXM3IL3Qu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    
+    
+    <hr>
+
+
+</body>
+
+</html>
